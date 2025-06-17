@@ -50,11 +50,11 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <Container>
-        <ListContainer>
+        {/* <ListContainer>
           {footerItems.map((singleItem) => (
             <FooterList key={singleItem.title} {...singleItem} />
           ))}
-        </ListContainer>
+        </ListContainer> */}
         <BottomBar>
           <ShareBar>
             <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2021 My Event Images Startup</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

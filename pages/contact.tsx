@@ -5,7 +5,7 @@ import InformationSection from 'views/ContactPage/InformationSection';
 
 export default function ContactPage() {
   return (
-    <Page title="Bağlantı" description="">
+    <Page title="Bize Ulaşın" description="">
       <ContactContainer>
         <InformationSection />
       </ContactContainer>

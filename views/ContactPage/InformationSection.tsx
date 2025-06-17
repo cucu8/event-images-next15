@@ -11,6 +11,10 @@ export default function InformationSection() {
         <h3>Telefon</h3>
         <p>0533 428 14 41</p>
       </Wrapper>
+      <Wrapper>
+        <h3>Sosyal Medya</h3>
+        <p>Yakında...</p>
+      </Wrapper>
     </>
   );
 }

@@ -21,6 +21,7 @@ import { NavItems } from 'types';
 
 const navItems: NavItems = [
   // { title: 'Awesome SaaS Features', href: '/features' },
+  { title: 'Ana Sayfa', href: '/' },
   { title: 'Ödeme Planı', href: '/pricing' },
   { title: 'Bize Ulaşın', href: '/contact' },
   // { title: 'Sign up', href: '/sign-up', outlined: true },
