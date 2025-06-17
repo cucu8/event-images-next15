@@ -54,17 +54,17 @@ export default function FeaturesGallery() {
 
     return (
       <Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
-        <TabTitleContainer>
-          <CircleContainer>
+        {/* <TabTitleContainer> */}
+        {/* <CircleContainer>
             <ThreeLayersCircle baseColor={isActive ? 'transparent' : singleTab.baseColor} secondColor={singleTab.secondColor} />
           </CircleContainer>
-          <h4>{singleTab.title}</h4>
-        </TabTitleContainer>
-        <Collapse isOpen={isActive} duration={300}>
-          <TabContent>
+          <h4>{singleTab.title}</h4> */}
+        {/* </TabTitleContainer> */}
+        {/* <Collapse isOpen={isActive} duration={300}> */}
+        {/* <TabContent>
             <div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
-          </TabContent>
-        </Collapse>
+          </TabContent> */}
+        {/* </Collapse> */}
       </Tab>
     );
   });

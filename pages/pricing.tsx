@@ -5,10 +5,13 @@ import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
 
 export default function PricingPage() {
   return (
-    <Page title="Pricing" description="Cupidatat et reprehenderit ullamco aute ullamco anim tempor.">
+    <Page
+      title="Paketler ve Ücretlendirme"
+      description="Her ihtiyaca uygun esnek fiyat seçenekleriyle etkinliklerinizi daha verimli yönetin."
+    >
       <Wrapper>
         <PricingTablesSection />
-        <FaqSection />
+        {/* <FaqSection /> */}
       </Wrapper>
     </Page>
   );

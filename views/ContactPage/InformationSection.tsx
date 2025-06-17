@@ -2,12 +2,16 @@ import styled from 'styled-components';
 
 export default function InformationSection() {
   return (
-    <Wrapper>
-      <h3>Contact Info</h3>
-      <p>
-        <span>Email:</span> support@myawesomesaas.com
-      </p>
-    </Wrapper>
+    <>
+      <Wrapper>
+        <h3>Email</h3>
+        <p>bigeventsimages@gmail.com</p>
+      </Wrapper>
+      <Wrapper>
+        <h3>Telefon</h3>
+        <p>0533 428 14 41</p>
+      </Wrapper>
+    </>
   );
 }
 

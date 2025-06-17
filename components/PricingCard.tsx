@@ -30,7 +30,7 @@ export default function PricingCard({ title, description, benefits, isOutlined, 
           </CustomRichText>
         )}
       </PriceContainer>
-      <CustomButton>Get started</CustomButton>
+      <CustomButton>Detayli Bilgi için 05334281441</CustomButton>
     </Wrapper>
   );
 }

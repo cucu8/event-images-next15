@@ -14,21 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <Heading>Kullanıcıya Özel Digital Etkinlik Fotoğraf Sistemi</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Bu sistem, etkinlikler sırasında kullanıcıların fotoğraflarını kolayca yüklemesine ve sadece kendi yüklediği fotoğrafları
+          görüntülemesine olanak tanır. Her kullanıcıya özel bir galeri sunularak gizlilik ve kişisel deneyim ön planda tutulur. Güvenli ve
+          kullanıcı dostu arayüzü sayesinde katılımcılar anılarını rahatça saklayabilir, paylaşabilir ve tekrar yaşayabilir. İsteğe bağlı
+          olarak sistem; fotoğrafların süresi dolunca otomatik silinmesini, fotoğraf etiketlemeyi veya moderasyon kontrollerini de
+          destekleyebilir. Dilersen daha sade, eğlenceli ya da teknik bir versiyon da hazırlayabilirim. Hedef kitlen kim (kurumsal
+          kullanıcılar, gençler, ekip içi kullanım vs.) ona göre revize edebilirim. İster misin?
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
